@@ -1,0 +1,38 @@
+# Virtual Environment
+ml_env/
+
+# Data
+# Ignore all data files to prevent pushing large datasets to GitHub
+data/
+
+# MLflow Tracking
+mlruns/
+mlflow.db
+
+# Submissions
+# Ignore final CSVs so they don't clutter the repo
+submissions/
+submissions/*.csv
+
+# Temporary / Scratch Scripts
+create_notebook.py
+fix_04.py
+fix_05.py
+update_notebooks.py
+lucky_nb/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# macOS System Files
+.DS_Store
+**/.DS_Store
+
+# Miscellaneous
+catboost_info/
+docs/
